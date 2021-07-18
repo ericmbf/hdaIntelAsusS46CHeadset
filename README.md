@@ -17,8 +17,8 @@ options snd-hda-intel model=alc255-asus
 The only model that works for my ALC270 module was the "alc255-asus" model.
 After this, the option headset shows when I plugged the headset on laptop.
 
-3. After this you need to use the program hdajackretask and select the Realtek ALC270 coded, and click in the option "Show unconnected pins" and you need to mark the pin ID "0x1a" to be "Headphone" and the pin ID "0x18" to be "Microphone"
+3. After this you need to use the program hdajackretask and select the Realtek ALC270 coded, and click in the option "Show unconnected pins" and you need to mark the pin ID "0x1a" to be "Headphone" and the pin ID "0x18" to be "Microphone". Click and Appy now and Install boot override to persist your configuration.
 
-4. After this, you need reboot the ubuntu. 
+4. After this, you need reboot the ubuntu. And it's all. Thank you. I hope help you guys. 
 
 Obs: if alc255-asus don't works for you, you can try another options, like: alc269-dmic, alc271-dmic, headset-mic, alc283-headset. Don't forget to restart the machine after hdajackretask.
