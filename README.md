@@ -22,3 +22,6 @@ After this, the option headset shows when I plugged the headset on laptop.
 4. After this, you need reboot the ubuntu. And it's all. Thank you. I hope help you guys. 
 
 Obs: if alc255-asus don't works for you, you can try another options, like: alc269-dmic, alc271-dmic, headset-mic, alc283-headset. Don't forget to restart the machine after hdajackretask.
+
+EDIT:
+Nowadays I also need to open the alsamixer and try to enable all detected microphone. Now, when I plug the jack cable open three options, Headphone, Headset and microphone. Choose the Headset if you want use Headphone microphone.
